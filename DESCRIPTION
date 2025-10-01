@@ -1,0 +1,24 @@
+Package: astroanalytic
+Version: 1.3
+Date: 2025-10-01
+Title: Analytical spectra of eccentricity, precession and obliquity
+Author: Michel Crucifix [aut, cre] (<https://orcid.org/0000-0002-3437-4911>)
+Authors@R: c(person("Michel", "Crucifix",
+                  email = "michel.crucifix@uclouvain.be",
+                  comment = c(ORCID= "0000-0002-3437-4911"), 
+                  role = c("aut", "cre")))
+Maintainer: Michel Crucifix <michel.crucifix@uclouvain.be>
+Depends: R (>= 2.10), stats, graphics, gtools, dplyr
+Imports:
+    gtseries
+Remotes:
+    mcrucifix/gtseries
+Description: fork of the deeppast branch of palinsol, containing routines to compute analytical spectral decompositions of eccentricity, precession and obliquity based on an orbital solution. Bre73 (Bretagnon 73) and La88 (Laskat 88) are provided for reference. This work replicates and documents developments by A. Berger and M.L. Loutre. 
+License: file LICENSE
+LazyData: true
+KeepSource: true
+Encoding: UTF-8
+URL: https://github.com/mcrucifix/astroanalytic
+BugReports: https://github.com/mcrucifix/astroanalytic/issues
+RoxygenNote: 7.3.1
+NeedsCompilation: yes
